@@ -256,10 +256,10 @@ SYNTAX_SRCS= \
 	external_process\
 	ast_util\
 	ast_tdcls\
+	ast_tuple_pattern_flatten\
 	ast_exp_apply\
 	ast_exp_extension\
 	ast_core_type_class_type\
-	ast_tuple_pattern_flatten\
 	ppx_entry\
 # not a good name ast_util
 SYNTAX_CMXS=$(addprefix syntax/, $(addsuffix .cmx, $(SYNTAX_SRCS)))

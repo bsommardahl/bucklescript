@@ -497,5 +497,6 @@
 ../lib/whole_compiler.ml : ./outcome_printer/reason_syntax_util.ml
 ../lib/whole_compiler.ml : ./core/js_pass_flatten_and_mark_dead.mli
 ../lib/whole_compiler.ml : ./outcome_printer/outcome_printer_ns.mli
+../lib/whole_compiler.ml : ./outcome_printer/reason_syntax_util.mli
 ../lib/whole_compiler.ml : ./outcome_printer/tweaked_reason_oprint.ml
 ../lib/whole_compiler.ml : ./outcome_printer/reason_outcome_printer_main.ml
